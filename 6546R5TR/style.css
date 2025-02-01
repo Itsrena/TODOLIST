@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Emilys+Candy&family=Petit+Formal+Script&display=swap');
+
+  
+body{
+margin: 0;
+padding: 0;
+background-image: url(./premium_photo-1700001212498-1b6cbc7fbdef.avif);
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh;
+font-family: "Emilys Candy", serif;
+font-weight: 400;
+font-style: normal;
+  
+  
+}
+.emilys-candy-regular {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.container {
+    margin: 0;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 23%;
+}
+h1{
+    font-size: 55px;
+    color: rgb(21, 49, 44);
+}
+
+.mainBlock {
+    
+    width: 800px;
+    background-color: rgba(133, 170, 170, 0.897);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    margin-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    opacity: 0.9;
+}
+
+.mainBlock div {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-column-gap: 5px;
+}
+
+.texIn {
+    height: 2em;
+    text-align: center;
+}
